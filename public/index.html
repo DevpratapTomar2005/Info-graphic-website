@@ -274,7 +274,7 @@
             
             try {
                 // This would typically call your backend API
-                const response = await fetch('/api/screenshot', {
+                const response = await fetch(`${process.env.SERVER_URL}/api/screenshot`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
