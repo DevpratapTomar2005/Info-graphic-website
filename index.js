@@ -159,4 +159,3 @@ app.listen(PORT, async () => {
     await initBrowser();
 });
 
-export default app;
