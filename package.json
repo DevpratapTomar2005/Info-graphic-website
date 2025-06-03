@@ -1,0 +1,19 @@
+{
+  "name": "devpratap-tomar-infographic-website-task",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Devpratap Tomar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "puppeteer": "^24.10.0"
+  }
+}
