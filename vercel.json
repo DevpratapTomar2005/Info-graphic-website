@@ -1,16 +1,6 @@
 {
   "version": 2,
   "name": "pinterest-infographic",
-  "builds": [
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "api/*.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/api/(.*)",
